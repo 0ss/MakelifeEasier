@@ -12,7 +12,7 @@ pull:
 i: 
 	git init
 
-c: # short cut for commit. make c=first commit
+c: # short cut for commit. make c="first commit"
 	git add .
 	git commit -m "$n"
 
