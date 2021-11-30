@@ -15,6 +15,9 @@ ACCOUNT = 0ss
 pull:
 	git pull https://github.com/${ACCOUNT}/${REPO}
 
+push:
+	git push
+
 i: 
 	git init
 
