@@ -2,13 +2,19 @@
 # My Fancy project
 #
 
-REPO = MakelifeEasier #  your repo name
-ACCOUNT = 0ss # your account or org name
+
+#  your repo name
+REPO = MakelifeEasier
+
+# your account or org name
+ACCOUNT = 0ss
+
 #
 # git commands
 #
 pull:
-	git pull https://github.com/${REPO}/${ACCOUNT}
+	git pull https://github.com/${ACCOUNT}/${REPO}
+
 i: 
 	git init
 
